@@ -1,0 +1,23 @@
+.container h1 {
+  color: #fff;
+  font-weight: bold;
+ 
+  font-size: 70px;
+}
+.container {
+  background-color:#bde0fe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 80px 150px;  
+}
+.container input {
+  border-radius: 10px;
+  padding: 10px;
+  height: 40px;
+  width: 300px;
+  border: none;
+}
+.container input::placeholder {
+  font-size: 1rem;
+}
