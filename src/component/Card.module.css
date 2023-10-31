@@ -7,12 +7,17 @@
   overflow: hidden;
   box-shadow: 5px 5px 10px rgb(189, 189, 189);
   margin: 10px;
+  height: 340px;
+  transition: all 0.4s;
+}
+.container:hover {
+  transform: translateY(-0.8rem);
 }
 .container p {
   background-color: rgb(10, 145, 46);
   width: fit-content;
   border-radius: 5px;
-  margin: 10px 5px 20px;
+  margin: 50px 10px;
   padding: 5px;
   color: #fff;
   font-weight: bold;
